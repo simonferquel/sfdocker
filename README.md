@@ -1,4 +1,4 @@
-SFDocker
+SFDocker (Symfony 3.4 lts)
 ========
 
 A clean Symfony configured for Docker.
