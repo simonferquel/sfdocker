@@ -6,7 +6,7 @@ services:
       TIMEZONE: Europe/Berlin
     volumes:
     - ./docker/php/php.ini:/usr/local/etc/php/php.ini:ro
-    - ./:/var/www/app:cached
+    - ./:/var/www/app
     working_dir: /var/www/app
 
   webserver:
